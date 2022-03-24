@@ -26,7 +26,7 @@ spec:
     helm:
       parameters:
       - name: metadata.name
-        value: ibm-cpd-wml-operator-subscription
+        value: ibm-cpd-ws-operator-catalog-subscription
       - name: spec.channel
         value: v2.0
       - name: spec.installPlanApproval
@@ -34,6 +34,6 @@ spec:
       - name: spec.name
         value: ibm-cpd-wsl
       - name: spec.source
-        value: ibm-operator-catalog
+        value: ibm-cpd-ws-operator-catalog
       - name: spec.sourceNamespace
         value: openshift-marketplace
