@@ -22,11 +22,11 @@ spec:
   source:
     chart: ocp-subscription
     repoURL: "" # Populated by kustomize patches in 2-services/kustomization.yaml
-    targetRevision: 1.0.0
+    targetRevision: 1.1.0
     helm:
       parameters:
       - name: metadata.name
-        value: ibm-cpd-wml-operator-catalog-subscription
+        value: ibm-cpd-wml-operator-subscription
       - name: spec.channel
         value: v2.0
       - name: spec.installPlanApproval
